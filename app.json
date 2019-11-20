@@ -1,0 +1,11 @@
+{
+  "name": "PAY.JP Tokenize Example Backend",
+  "description": "An example server for PAY.JP card tokenization",
+  "env": {
+    "PAYJP_TEST_SECRET_KEY": {
+      "description": "Your PAY.JP **TEST** secret key (like `sk_test_****`) which can be found on your PAY.JP Dashboard [https://pay.jp/d/settings].",
+      "required": true
+    }
+  },
+  "image": "heroku/nodejs"
+}

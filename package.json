@@ -1,0 +1,24 @@
+{
+  "name": "payjp-example-tokenize-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "payjp": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/payjp/example-tokenize-backend"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "",
+  "license": "MIT"
+}
